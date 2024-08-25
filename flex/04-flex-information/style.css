@@ -10,6 +10,15 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.motherContainer {
+  display: flex;
+  gap: 30px;
+  margin: 32px;
+  padding: 52px;
+  text-align: center;
 }
 
 /* do not edit this footer */
