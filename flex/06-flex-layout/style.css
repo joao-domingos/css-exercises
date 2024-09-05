@@ -5,6 +5,56 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.left-links, .right-links {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center;     /* Alinha verticalmente */
+  height: 100vh;           /* 100% da altura da viewport */
+}
+
+.input {
+  padding: 8px 24px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none; /* Remove os pontos da lista */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+li {
+  /* Adicione estilos para os itens da lista se necessário */
+  padding: 8px; /* Espaçamento interno */
+  border-bottom: none; /* Remove a borda inferior, se houver */
 }
 
 img {
@@ -16,6 +66,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
